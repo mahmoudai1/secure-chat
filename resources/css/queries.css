@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1680px) {
+    form {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    form {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    form {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    form {
+        width: 90%;
+    }
+}

@@ -1,0 +1,86 @@
+/*----------BASIC SETUP---------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto";
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+    font-weight: 300;
+}
+
+body {
+    padding-top: 60px;
+}
+
+*:focus {
+    outline: none;
+}
+
+h1:first-child {
+    padding: 20px;
+}
+
+#logoutBtn {
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+    width: 115px;
+}
+
+#logoutBtn {
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    padding: 6px 20px;
+}
+
+#logoutBtn:hover {
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    box-shadow: 0px 7px 8px #d8d8d8;
+}
+
+#logoutBtn:hover {
+    width: 125px;
+}
+
+#logoutBtn:active {
+    box-shadow: 0px 7px 8px #b4b4b4;
+}
+
+button:hover {
+    box-shadow: 0px 7px 8px #d8d8d8;
+}
+
+#logoutP {
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+}
+
+tr:first-child th:first-child {
+    border-top-left-radius: 20px;
+    padding-left: 30px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 20px;
+}
